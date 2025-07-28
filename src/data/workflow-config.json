@@ -1,0 +1,99 @@
+{
+  "stages": [
+    {
+      "id": "recommended",
+      "name": "Recommended",
+      "description": "AI-curated investors based on fit score and portfolio alignment",
+      "color": "blue",
+      "automatedActions": [
+        "research_background",
+        "find_warm_intro_path",
+        "draft_introduction"
+      ]
+    },
+    {
+      "id": "outreach_in_progress", 
+      "name": "Outreach in Progress",
+      "description": "Active outreach with emails sent and follow-ups scheduled",
+      "color": "yellow",
+      "automatedActions": [
+        "send_introduction",
+        "track_email_opens",
+        "schedule_follow_ups"
+      ]
+    },
+    {
+      "id": "meeting_confirmed",
+      "name": "Meeting Confirmed", 
+      "description": "Meetings scheduled and preparation materials ready",
+      "color": "green",
+      "automatedActions": [
+        "prepare_meeting_brief",
+        "calendar_integration",
+        "send_prep_materials"
+      ]
+    },
+    {
+      "id": "declined",
+      "name": "Declined/Rejected",
+      "description": "Investors who passed or are not interested",
+      "color": "red", 
+      "automatedActions": [
+        "update_crm",
+        "analyze_rejection_reasons",
+        "suggest_alternatives"
+      ]
+    }
+  ],
+  "emailTemplates": {
+    "warm_introduction": {
+      "subject": "Introduction: {founder_name} ({company_name}) <> {investor_name} ({firm_name})",
+      "tone": "professional_warm",
+      "keyElements": [
+        "mutual_connection_context",
+        "company_highlights", 
+        "investor_portfolio_relevance",
+        "clear_next_steps"
+      ]
+    },
+    "cold_outreach": {
+      "subject": "{company_name} - {round_type} Opportunity",
+      "tone": "professional_direct",
+      "keyElements": [
+        "value_proposition",
+        "traction_metrics",
+        "portfolio_fit_reasoning",
+        "soft_ask_for_conversation"
+      ]
+    },
+    "follow_up": {
+      "subject": "Re: {original_subject}",
+      "tone": "persistent_polite",
+      "keyElements": [
+        "reference_previous_email",
+        "additional_context",
+        "updated_metrics",
+        "alternative_meeting_options"
+      ]
+    }
+  },
+  "automationRules": {
+    "follow_up_timing": {
+      "first_follow_up": "3 days",
+      "second_follow_up": "7 days", 
+      "third_follow_up": "14 days"
+    },
+    "approval_requirements": {
+      "all_outreach_emails": true,
+      "follow_up_emails": false,
+      "meeting_confirmations": false
+    },
+    "notification_triggers": [
+      "email_sent",
+      "response_received", 
+      "meeting_scheduled",
+      "follow_up_due",
+      "approval_needed"
+    ]
+  }
+}

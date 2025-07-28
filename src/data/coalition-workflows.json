@@ -1,0 +1,69 @@
+[
+  {
+    "id": "coalition_001",
+    "dealId": "deal_dataflow_001",
+    "dealName": "DataFlow Solutions - Series A",
+    "status": "in_progress",
+    "stage": "outreach_execution",
+    "startedAt": "2024-01-15T10:00:00Z",
+    "targetInvestors": 3,
+    "completedIntros": 2,
+    "meetingsBooked": 1,
+    "expectedCompletion": "2024-01-25T17:00:00Z",
+    "workflow": {
+      "discovery": {
+        "status": "completed",
+        "completedAt": "2024-01-15T10:30:00Z",
+        "topInvestors": ["1", "2", "3"],
+        "agentReasoning": "Selected based on portfolio overlap, stage alignment, and warm connection availability"
+      },
+      "pathfinding": {
+        "status": "completed", 
+        "completedAt": "2024-01-15T11:15:00Z",
+        "connectionPaths": [
+          {
+            "investorId": "1",
+            "path": "direct_connection",
+            "connector": "john.smith@techcorp.com",
+            "relationship": "former_colleague",
+            "confidence": 95
+          },
+          {
+            "investorId": "2", 
+            "path": "2nd_degree",
+            "connector": "alex.johnson@startup.com",
+            "relationship": "mutual_portfolio_founder",
+            "confidence": 78
+          }
+        ]
+      },
+      "drafting": {
+        "status": "completed",
+        "completedAt": "2024-01-15T12:00:00Z",
+        "drafts": [
+          {
+            "investorId": "1",
+            "draftId": "draft_001",
+            "type": "warm_introduction",
+            "status": "approved",
+            "approvedAt": "2024-01-15T14:00:00Z",
+            "humanEdits": 2
+          }
+        ]
+      },
+      "execution": {
+        "status": "in_progress",
+        "startedAt": "2024-01-15T14:15:00Z",
+        "outreachSent": 2,
+        "responsesReceived": 1,
+        "meetingsScheduled": 1
+      }
+    },
+    "metrics": {
+      "timeToFirstIntro": "4.5 hours",
+      "responseRate": "50%",
+      "meetingConversionRate": "50%",
+      "totalTimeInvested": "6.2 hours"
+    }
+  }
+]

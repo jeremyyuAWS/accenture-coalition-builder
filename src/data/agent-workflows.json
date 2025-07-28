@@ -1,0 +1,183 @@
+[
+  {
+    "id": "workflow_001",
+    "name": "Investor Outreach Sequence",
+    "investorId": "1",
+    "status": "completed",
+    "startTime": "2024-01-15T10:00:00Z",
+    "endTime": "2024-01-15T15:30:00Z",
+    "totalSteps": 7,
+    "completedSteps": 7,
+    "steps": [
+      {
+        "stepId": 1,
+        "name": "Initial Research",
+        "type": "agent_action",
+        "status": "completed",
+        "startTime": "2024-01-15T10:00:00Z",
+        "endTime": "2024-01-15T10:15:00Z",
+        "duration": 15,
+        "confidence": 94,
+        "details": "Analyzed investor profile, recent investments, and portfolio fit",
+        "outputs": ["investor_research_report.pdf", "fit_score_analysis.json"],
+        "nextStepTrigger": "research_complete"
+      },
+      {
+        "stepId": 2,
+        "name": "Connection Mapping",
+        "type": "agent_action", 
+        "status": "completed",
+        "startTime": "2024-01-15T10:15:00Z",
+        "endTime": "2024-01-15T10:25:00Z",
+        "duration": 10,
+        "confidence": 88,
+        "details": "Found 2nd degree connection via John Smith, verified relationship strength",
+        "outputs": ["connection_analysis.json", "intro_path_recommendation.md"],
+        "nextStepTrigger": "warm_intro_available"
+      },
+      {
+        "stepId": 3,
+        "name": "Draft Introduction",
+        "type": "agent_action",
+        "status": "completed", 
+        "startTime": "2024-01-15T10:25:00Z",
+        "endTime": "2024-01-15T10:35:00Z",
+        "duration": 10,
+        "confidence": 91,
+        "details": "Generated personalized introduction email highlighting portfolio fit",
+        "outputs": ["intro_email_draft.md", "talking_points.md"],
+        "nextStepTrigger": "draft_ready_for_approval"
+      },
+      {
+        "stepId": 4,
+        "name": "Human Approval",
+        "type": "human_action",
+        "status": "completed",
+        "startTime": "2024-01-15T11:00:00Z", 
+        "endTime": "2024-01-15T11:15:00Z",
+        "duration": 15,
+        "details": "Human reviewed and approved introduction email with minor edits",
+        "humanFeedback": "Looks great, maybe emphasize the mutual connection more",
+        "modifications": ["strengthened_connection_context"],
+        "nextStepTrigger": "human_approved"
+      },
+      {
+        "stepId": 5,
+        "name": "Send Introduction",
+        "type": "agent_action",
+        "status": "completed",
+        "startTime": "2024-01-15T11:20:00Z",
+        "endTime": "2024-01-15T11:20:00Z", 
+        "duration": 0,
+        "confidence": 95,
+        "details": "Introduction email sent via John Smith to Sarah Chen",
+        "outputs": ["email_sent_confirmation.json"],
+        "nextStepTrigger": "email_sent"
+      },
+      {
+        "stepId": 6,
+        "name": "Monitor Response",
+        "type": "agent_action",
+        "status": "completed",
+        "startTime": "2024-01-15T11:20:00Z",
+        "endTime": "2024-01-15T14:45:00Z",
+        "duration": 205,
+        "confidence": 85,
+        "details": "Monitored email engagement, tracked open rates and response",
+        "outputs": ["engagement_metrics.json"],
+        "nextStepTrigger": "positive_response_received"
+      },
+      {
+        "stepId": 7,
+        "name": "Response Analysis & Next Steps",
+        "type": "agent_action", 
+        "status": "completed",
+        "startTime": "2024-01-15T14:45:00Z",
+        "endTime": "2024-01-15T15:30:00Z",
+        "duration": 45,
+        "confidence": 92,
+        "details": "Analyzed positive response, recommended meeting scheduling approach",
+        "outputs": ["response_analysis.json", "meeting_strategy.md"],
+        "nextStepTrigger": "workflow_complete",
+        "recommendations": [
+          "Schedule coffee meeting for Tuesday or Wednesday",
+          "Prepare one-page company summary focused on enterprise analytics",
+          "Research Sarah's recent portfolio company challenges for talking points"
+        ]
+      }
+    ],
+    "metrics": {
+      "totalTime": "5.5 hours",
+      "agentTime": "4.75 hours", 
+      "humanTime": "0.75 hours",
+      "efficiency": 86,
+      "outcome": "meeting_scheduled"
+    }
+  },
+  {
+    "id": "workflow_002",
+    "name": "Meeting Preparation Sequence",
+    "investorId": "3",
+    "status": "in_progress",
+    "startTime": "2024-01-17T09:00:00Z",
+    "totalSteps": 5,
+    "completedSteps": 3,
+    "steps": [
+      {
+        "stepId": 1,
+        "name": "Investor Deep Research",
+        "type": "agent_action",
+        "status": "completed",
+        "startTime": "2024-01-17T09:00:00Z", 
+        "endTime": "2024-01-17T09:30:00Z",
+        "duration": 30,
+        "confidence": 91,
+        "details": "Comprehensive analysis of Emily Watson's investment thesis and portfolio",
+        "outputs": ["emily_watson_profile.pdf", "sequoia_investment_criteria.md"]
+      },
+      {
+        "stepId": 2,
+        "name": "Generate Meeting Materials",
+        "type": "agent_action",
+        "status": "completed",
+        "startTime": "2024-01-17T09:30:00Z",
+        "endTime": "2024-01-17T10:30:00Z", 
+        "duration": 60,
+        "confidence": 89,
+        "details": "Created customized pitch deck and financial models for Sequoia presentation",
+        "outputs": ["pitch_deck_sequoia.pdf", "financial_model_detailed.xlsx", "competitive_analysis.pdf"]
+      },
+      {
+        "stepId": 3,
+        "name": "Risk Analysis & Preparation",
+        "type": "agent_action",
+        "status": "completed",
+        "startTime": "2024-01-17T10:30:00Z",
+        "endTime": "2024-01-17T11:00:00Z",
+        "duration": 30,
+        "confidence": 87,
+        "details": "Identified potential objections and prepared response strategies",
+        "outputs": ["risk_mitigation_plan.md", "objection_handling.pdf"]
+      },
+      {
+        "stepId": 4,
+        "name": "Human Review & Practice",
+        "type": "human_action",
+        "status": "in_progress",
+        "startTime": "2024-01-17T16:00:00Z",
+        "details": "Founder reviewing materials and preparing presentation",
+        "estimatedDuration": 120,
+        "nextStepTrigger": "human_ready"
+      },
+      {
+        "stepId": 5,
+        "name": "Final Preparation & Setup",
+        "type": "agent_action",
+        "status": "pending",
+        "details": "Final logistics check, material upload, and meeting setup",
+        "estimatedDuration": 15,
+        "dependencies": ["step_4_complete"]
+      }
+    ]
+  }
+]

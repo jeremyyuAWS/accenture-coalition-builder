@@ -1,0 +1,72 @@
+[
+  {
+    "id": "path_001",
+    "investorId": "1",
+    "investorName": "Sarah Chen",
+    "paths": [
+      {
+        "pathId": "path_1a",
+        "type": "direct_connection",
+        "strength": 95,
+        "connector": {
+          "name": "John Smith",
+          "email": "john.smith@techcorp.com",
+          "relationship": "Former colleague at Salesforce",
+          "lastInteraction": "2024-01-10T00:00:00Z"
+        },
+        "reasoning": "Strong professional relationship - worked together for 3 years, maintains regular contact",
+        "likelihood": "Very High",
+        "suggestedApproach": "Professional introduction highlighting DataFlow's enterprise focus"
+      },
+      {
+        "pathId": "path_1b", 
+        "type": "2nd_degree",
+        "strength": 72,
+        "connector": {
+          "name": "Maria Rodriguez",
+          "email": "maria@enterprise.com", 
+          "relationship": "Mutual connection via industry events",
+          "lastInteraction": "2023-12-15T00:00:00Z"
+        },
+        "reasoning": "Both attended Enterprise SaaS Summit, share similar investment interests",
+        "likelihood": "Moderate",
+        "suggestedApproach": "Industry-focused introduction with market context"
+      }
+    ],
+    "recommendedPath": "path_1a",
+    "agentConfidence": 95,
+    "timeEstimate": "2-4 hours for response"
+  },
+  {
+    "id": "path_002",
+    "investorId": "2",
+    "investorName": "Marcus Rodriguez", 
+    "paths": [
+      {
+        "pathId": "path_2a",
+        "type": "cold_outreach",
+        "strength": 45,
+        "reasoning": "No direct connections found, but strong portfolio alignment suggests receptive to quality deals",
+        "likelihood": "Low-Moderate",
+        "suggestedApproach": "Highly personalized cold outreach emphasizing portfolio synergies"
+      },
+      {
+        "pathId": "path_2b",
+        "type": "2nd_degree",
+        "strength": 68,
+        "connector": {
+          "name": "David Kim",
+          "email": "david@startupaccelerator.com",
+          "relationship": "Mutual portfolio company founder",
+          "lastInteraction": "2024-01-05T00:00:00Z"
+        },
+        "reasoning": "David's company was funded by Marcus, maintains good relationship",
+        "likelihood": "Moderate-High", 
+        "suggestedApproach": "Founder-to-founder introduction with success story context"
+      }
+    ],
+    "recommendedPath": "path_2b",
+    "agentConfidence": 68,
+    "timeEstimate": "1-2 days for response"
+  }
+]

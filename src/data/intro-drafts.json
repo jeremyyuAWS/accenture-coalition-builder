@@ -1,0 +1,65 @@
+[
+  {
+    "id": "draft_001",
+    "coalitionId": "coalition_001",
+    "investorId": "1",
+    "investorName": "Sarah Chen",
+    "type": "warm_introduction",
+    "status": "approved",
+    "createdAt": "2024-01-15T11:45:00Z",
+    "approvedAt": "2024-01-15T14:00:00Z",
+    "connector": {
+      "name": "John Smith",
+      "email": "john.smith@techcorp.com"
+    },
+    "originalDraft": "Hi Sarah,\n\nHope you're doing well! I wanted to introduce you to John Doe, CEO and Co-founder of DataFlow Solutions.\n\nDataFlow has built an impressive AI-powered analytics platform that's gained significant traction with enterprise clients - they're at $2.1M ARR with 15% month-over-month growth. Given your recent investments in DataVault and AnalyticsPro, I thought this would be a perfect fit for your portfolio.\n\nA few highlights that might interest you:\n• 45 enterprise customers with 95% retention\n• Strong unit economics with 78% gross margins\n• Experienced team (John was VP Eng at Salesforce, Jane was Senior Data Scientist at Google)\n• Raising their Series A to accelerate sales and expand their engineering team\n\nJohn, Sarah is a Partner at Accel who led the Series A rounds for DataVault ($12M) and AnalyticsPro ($15M). She has deep expertise in the enterprise analytics space and would be a fantastic addition to your round.\n\nI'll let you both take it from here. Looking forward to seeing where this goes!\n\nBest,\nJohn Smith",
+    "humanFeedback": "Great draft! Let's emphasize the mutual connection more and add specific metrics that align with Sarah's portfolio thesis.",
+    "finalDraft": "Hi Sarah,\n\nHope you're doing well! As we discussed at the Salesforce alumni event, I wanted to introduce you to John Doe, CEO and Co-founder of DataFlow Solutions.\n\nDataFlow has built an impressive AI-powered analytics platform that's gained significant traction with enterprise clients - they're at $2.1M ARR with 15% month-over-month growth. Given your thesis on enterprise analytics and your successful investments in DataVault and AnalyticsPro, I thought this would be a perfect fit for your portfolio.\n\nKey metrics that align with your portfolio:\n• 45 enterprise customers with 95% retention (similar to DataVault's early metrics)\n• Strong unit economics: 78% gross margins, 14-month payback period\n• Experienced team: John (VP Eng at Salesforce), Jane (Senior Data Scientist at Google)\n• Raising Series A to accelerate enterprise sales team expansion\n\nJohn, Sarah is a Partner at Accel who led the Series A rounds for DataVault ($12M) and AnalyticsPro ($15M). She has deep expertise in the enterprise analytics space and has been incredibly valuable to her portfolio companies' growth.\n\nI'll let you both take it from here. Looking forward to seeing where this goes!\n\nBest,\nJohn Smith",
+    "agentAnalysis": {
+      "personalizations": [
+        "Referenced specific portfolio companies (DataVault, AnalyticsPro)",
+        "Highlighted metrics alignment with previous investments",
+        "Emphasized connector's relationship context"
+      ],
+      "confidence": 92,
+      "expectedResponse": "positive_within_24_hours"
+    },
+    "humanEdits": [
+      "Added reference to Salesforce alumni event",
+      "Included payback period metric", 
+      "Strengthened portfolio company comparison"
+    ]
+  },
+  {
+    "id": "draft_002",
+    "coalitionId": "coalition_001", 
+    "investorId": "2",
+    "investorName": "Marcus Rodriguez",
+    "type": "warm_introduction",
+    "status": "pending_approval",
+    "createdAt": "2024-01-16T09:30:00Z",
+    "connector": {
+      "name": "David Kim",
+      "email": "david@startupaccelerator.com"
+    },
+    "originalDraft": "Hi Marcus,\n\nHope you're doing well! I wanted to introduce you to John Doe, CEO of DataFlow Solutions, an enterprise analytics company that I think would be a great fit for KP's portfolio.\n\nDataFlow reminds me a lot of the early stage metrics we had at TechFlow when you led our Series A. They're at $2.1M ARR with strong 15% MoM growth and have achieved impressive enterprise customer validation with 45 clients and 95% retention.\n\nWhat makes them particularly interesting:\n• Similar technical architecture to what made TechFlow successful\n• Strong founder-market fit: John (former Salesforce VP) understands enterprise sales\n• AI-first approach that's resonating with large customers\n• Clear path to $10M ARR based on current pipeline\n\nJohn, Marcus is the Managing Director at Kleiner Perkins who led our Series A and has been instrumental in TechFlow's growth. He has deep expertise in enterprise software and would bring tremendous value to your round.\n\nWould love to connect you both!\n\nBest,\nDavid Kim",
+    "agentAnalysis": {
+      "personalizations": [
+        "Drew parallels to TechFlow (connector's successful portfolio company)",
+        "Emphasized founder-market fit angle (aligns with Marcus's investment criteria)",
+        "Highlighted technical architecture similarities"
+      ],
+      "confidence": 78,
+      "expectedResponse": "positive_within_2_days",
+      "riskFactors": [
+        "Marcus may be focused on later-stage deals currently",
+        "Market timing concerns in current environment"
+      ]
+    },
+    "suggestedImprovements": [
+      "Add specific competitive differentiation points",
+      "Include customer logos if available", 
+      "Mention current fundraising timeline"
+    ]
+  }
+]

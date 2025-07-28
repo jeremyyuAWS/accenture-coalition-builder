@@ -1,0 +1,81 @@
+[
+  {
+    "threadId": "thread_sarah_chen_001",
+    "investorId": "1",
+    "companyId": "1",
+    "subject": "Introduction: John Doe (DataFlow Solutions) <> Sarah Chen (Accel)",
+    "status": "active",
+    "stage": "post_meeting",
+    "totalEmails": 6,
+    "lastActivity": "2024-01-16T14:30:00Z",
+    "emails": [
+      {
+        "id": "email_1",
+        "timestamp": "2024-01-15T11:20:00Z",
+        "from": { "name": "John Smith", "email": "john.smith@techcorp.com", "type": "connector" },
+        "to": [{ "name": "Sarah Chen", "email": "sarah.chen@accel.com", "type": "investor" }],
+        "cc": [{ "name": "John Doe", "email": "john@dataflow.com", "type": "founder" }],
+        "content": "Hi Sarah,\n\nHope you're doing well! I wanted to introduce you to John Doe, CEO and Co-founder of DataFlow Solutions.\n\nDataFlow has built an impressive AI-powered analytics platform that's gained significant traction with enterprise clients - they're at $2.1M ARR with 15% month-over-month growth. Given your recent investments in DataVault and AnalyticsPro, I thought this would be a perfect fit for your portfolio.\n\nA few highlights that might interest you:\n• 45 enterprise customers with 95% retention\n• Strong unit economics with 78% gross margins\n• Experienced team (John was VP Eng at Salesforce, Jane was Senior Data Scientist at Google)\n• Raising their Series A to accelerate sales and expand their engineering team\n\nJohn, Sarah is a Partner at Accel who led the Series A rounds for DataVault ($12M) and AnalyticsPro ($15M). She has deep expertise in the enterprise analytics space and would be a fantastic addition to your round.\n\nI'll let you both take it from here. Looking forward to seeing where this goes!\n\nBest,\nJohn Smith",
+        "aiGenerated": false,
+        "agentAction": false
+      },
+      {
+        "id": "email_2", 
+        "timestamp": "2024-01-15T14:45:00Z",
+        "from": { "name": "Sarah Chen", "email": "sarah.chen@accel.com", "type": "investor" },
+        "to": [{ "name": "John Doe", "email": "john@dataflow.com", "type": "founder" }],
+        "cc": [{ "name": "John Smith", "email": "john.smith@techcorp.com", "type": "connector" }],
+        "content": "Thanks for the introduction, John!\n\nJohn - DataFlow sounds really interesting, especially given the traction metrics you mentioned. The enterprise analytics space is definitely heating up, and your background at Salesforce gives you a unique perspective on what enterprises need.\n\nI'd love to learn more about your approach to the market and how you're differentiating from other analytics platforms. Would you be available for a quick coffee chat next week? I'm free Tuesday or Wednesday afternoon.\n\nLooking forward to connecting!\n\nBest,\nSarah\n\nSarah Chen\nPartner, Accel Partners\nsarah.chen@accel.com\n(415) 555-0123",
+        "aiGenerated": false,
+        "agentAction": false,
+        "sentiment": "positive",
+        "agentAnalysis": "Strong positive response. Investor expressed clear interest and requested meeting. High conversion probability."
+      },
+      {
+        "id": "email_3",
+        "timestamp": "2024-01-15T16:20:00Z", 
+        "from": { "name": "Coalition Builder Agent", "email": "agent@coalitionbuilder.ai", "type": "agent" },
+        "to": [{ "name": "John Doe", "email": "john@dataflow.com", "type": "founder" }],
+        "content": "Hi John,\n\nI've analyzed Sarah's response and it shows very strong interest. I recommend scheduling the meeting for Wednesday afternoon as that aligns with her preference and gives us time to prepare materials.\n\nI've prepared a meeting brief with Sarah's investment thesis, portfolio companies, and suggested talking points. I'll also draft a calendar invite and prepare a one-page company summary tailored to her interests.\n\nShall I proceed with scheduling the meeting for Wednesday at 2 PM?\n\nBest,\nCoalition Builder AI",
+        "aiGenerated": true,
+        "agentAction": true,
+        "agentConfidence": 92,
+        "suggestedActions": ["schedule_meeting", "prepare_brief", "send_materials"]
+      },
+      {
+        "id": "email_4",
+        "timestamp": "2024-01-15T16:45:00Z",
+        "from": { "name": "John Doe", "email": "john@dataflow.com", "type": "founder" },
+        "to": [{ "name": "Sarah Chen", "email": "sarah.chen@accel.com", "type": "investor" }],
+        "content": "Hi Sarah,\n\nThanks for your interest! I'd love to chat more about DataFlow and would be happy to meet Wednesday afternoon. Would 2 PM work for you? We could meet at your office or grab coffee nearby - whatever works best.\n\nI'll bring along some materials showing our latest metrics and product roadmap. Really looking forward to the conversation!\n\nBest,\nJohn\n\nJohn Doe\nCEO & Co-founder, DataFlow Solutions\njohn@dataflow.com\n(650) 555-0156",
+        "aiGenerated": false,
+        "agentAction": false,
+        "humanApproved": true,
+        "agentAssisted": true
+      },
+      {
+        "id": "email_5",
+        "timestamp": "2024-01-16T09:15:00Z",
+        "from": { "name": "Sarah Chen", "email": "sarah.chen@accel.com", "type": "investor" },
+        "to": [{ "name": "John Doe", "email": "john@dataflow.com", "type": "founder" }],
+        "content": "Perfect! Wednesday at 2 PM works great. Let's meet at Accel's office - I'll send you the address and visitor instructions separately.\n\nI'm particularly interested in understanding your go-to-market strategy and how you're thinking about competitive differentiation. The metrics John mentioned are impressive, and I'd love to dive deeper into unit economics and customer acquisition costs.\n\nSee you Wednesday!\n\nSarah",
+        "aiGenerated": false,
+        "agentAction": false,
+        "sentiment": "positive",
+        "meetingConfirmed": true
+      },
+      {
+        "id": "email_6",
+        "timestamp": "2024-01-16T14:30:00Z",
+        "from": { "name": "Coalition Builder Agent", "email": "agent@coalitionbuilder.ai", "type": "agent" },
+        "to": [{ "name": "John Doe", "email": "john@dataflow.com", "type": "founder" }],
+        "content": "Hi John,\n\nGreat news - meeting confirmed with Sarah for Wednesday at 2 PM! I've prepared the following materials based on her interests:\n\n1. One-page company summary focusing on enterprise analytics positioning\n2. Detailed unit economics breakdown (she specifically asked about CAC)\n3. Competitive analysis highlighting differentiation\n4. Customer case studies from similar portfolio companies\n\nI've also researched her recent investments and prepared talking points that align with her investment thesis. The materials are ready for your review.\n\nShall I also prepare follow-up questions and next steps for after the meeting?\n\nBest,\nCoalition Builder AI",
+        "aiGenerated": true,
+        "agentAction": true,
+        "agentConfidence": 89,
+        "materialsAttached": ["company_summary_accel.pdf", "unit_economics_detailed.xlsx", "competitive_analysis.pdf"],
+        "nextActions": ["prepare_followup", "schedule_debrief", "track_outcomes"]
+      }
+    ]
+  }
+]

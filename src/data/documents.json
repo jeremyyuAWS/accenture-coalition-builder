@@ -1,0 +1,113 @@
+[
+  {
+    "id": "doc_001",
+    "name": "DataFlow Pitch Deck - Sequoia Custom",
+    "type": "pitch_deck",
+    "version": "v2.3",
+    "investorId": "3",
+    "lastModified": "2024-01-17T10:30:00Z",
+    "size": "4.2 MB",
+    "status": "ready",
+    "agentGenerated": true,
+    "humanReviewed": true,
+    "customizations": [
+      "Added Sequoia portfolio company comparisons",
+      "Emphasized scalability metrics", 
+      "Included technical architecture slides",
+      "Added competitive differentiation vs Microsoft"
+    ],
+    "slides": 16,
+    "url": "/documents/pitch_deck_sequoia_v2.3.pdf",
+    "accessLog": [
+      {
+        "timestamp": "2024-01-17T16:45:00Z",
+        "user": "John Doe",
+        "action": "downloaded"
+      }
+    ]
+  },
+  {
+    "id": "doc_002", 
+    "name": "Financial Model - Detailed",
+    "type": "financial_model",
+    "version": "v1.8",
+    "lastModified": "2024-01-16T14:20:00Z",
+    "size": "892 KB",
+    "status": "ready",
+    "agentGenerated": false,
+    "humanReviewed": true,
+    "contents": [
+      "3-year P&L projections",
+      "Unit economics breakdown",
+      "Customer cohort analysis",
+      "Sensitivity analysis",
+      "Funding requirements & use of funds"
+    ],
+    "url": "/documents/dataflow_financial_model_v1.8.xlsx",
+    "sharedWith": [
+      {
+        "investorId": "3",
+        "timestamp": "2024-01-18T18:45:00Z",
+        "accessLevel": "view"
+      }
+    ]
+  },
+  {
+    "id": "doc_003",
+    "name": "Term Sheet Template",
+    "type": "legal_document", 
+    "version": "v1.0",
+    "lastModified": "2024-01-10T12:00:00Z",
+    "size": "156 KB",
+    "status": "template",
+    "agentGenerated": false,
+    "contents": [
+      "Series A preferred stock terms",
+      "Valuation and pricing",
+      "Board composition",
+      "Liquidation preferences",
+      "Anti-dilution provisions"
+    ],
+    "url": "/documents/term_sheet_template_series_a.pdf"
+  },
+  {
+    "id": "doc_004",
+    "name": "Customer Reference List",
+    "type": "due_diligence",
+    "version": "v1.2", 
+    "lastModified": "2024-01-15T09:30:00Z",
+    "size": "89 KB",
+    "status": "confidential",
+    "agentGenerated": true,
+    "humanReviewed": true,
+    "contents": [
+      "10 enterprise customer references",
+      "Contact information and relationship details",
+      "Use case summaries",
+      "Success metrics and ROI data"
+    ],
+    "url": "/documents/customer_references_v1.2.pdf",
+    "accessRestricted": true
+  },
+  {
+    "id": "doc_005",
+    "name": "Competitive Analysis - Enterprise Analytics",
+    "type": "market_research",
+    "version": "v2.1",
+    "lastModified": "2024-01-17T11:00:00Z", 
+    "size": "1.8 MB",
+    "status": "ready",
+    "agentGenerated": true,
+    "humanReviewed": false,
+    "contents": [
+      "Tableau vs DataFlow comparison",
+      "Microsoft Power BI analysis", 
+      "Emerging AI analytics players",
+      "Feature comparison matrix",
+      "Pricing analysis"
+    ],
+    "url": "/documents/competitive_analysis_v2.1.pdf",
+    "autoUpdated": true,
+    "nextUpdate": "2024-01-24T09:00:00Z"
+  }
+]

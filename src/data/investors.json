@@ -1,0 +1,54 @@
+[
+  {
+    "id": "1",
+    "name": "Sarah Chen",
+    "title": "Partner",
+    "company": "Accel Partners",
+    "email": "sarah.chen@accel.com",
+    "fitScore": 92,
+    "explainability": "Investor backed 3 similar B2B SaaS startups in the last 18 months, including two Series A rounds in the $10-15M range.",
+    "status": "recommended",
+    "avatar": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
+    "lastActivity": "2024-01-15T10:30:00Z",
+    "warmIntro": "2nd degree via John Smith (former CTO at TechCorp)"
+  },
+  {
+    "id": "2",
+    "name": "Marcus Rodriguez",
+    "title": "Managing Director",
+    "company": "Kleiner Perkins",
+    "email": "marcus.rodriguez@kpcb.com",
+    "fitScore": 87,
+    "explainability": "Strong portfolio overlap with 5 enterprise software investments. Previously led Series A for DataFlow (similar market size and business model).",
+    "status": "outreach_in_progress",
+    "avatar": "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
+    "lastActivity": "2024-01-14T16:45:00Z",
+    "warmIntro": "1st degree connection"
+  },
+  {
+    "id": "3",
+    "name": "Emily Watson",
+    "title": "Principal",
+    "company": "Sequoia Capital",
+    "email": "emily.watson@sequoia.com",
+    "fitScore": 94,
+    "explainability": "Led investments in 7 startups with similar revenue models. Particular expertise in go-to-market strategy for B2B platforms.",
+    "status": "meeting_confirmed",
+    "avatar": "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
+    "lastActivity": "2024-01-13T09:15:00Z",
+    "warmIntro": "Warm intro via Alex Johnson"
+  },
+  {
+    "id": "4",
+    "name": "David Park",
+    "title": "General Partner",
+    "company": "Greylock Partners",
+    "email": "david.park@greylock.com",
+    "fitScore": 78,
+    "explainability": "Previous investments in adjacent markets. Strong network in enterprise sales. Recently backed two Series A companies in similar sectors.",
+    "status": "declined",
+    "avatar": "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
+    "lastActivity": "2024-01-12T14:20:00Z",
+    "warmIntro": "Direct outreach"
+  }
+]

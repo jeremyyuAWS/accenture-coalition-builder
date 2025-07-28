@@ -1,0 +1,81 @@
+{
+  "overview": {
+    "totalOutreach": 189,
+    "meetingsBooked": 52,
+    "conversionRate": 27.5,
+    "averageResponseTime": "0.8 days",
+    "activeProspects": 23
+  },
+  "agentProductivity": {
+    "emailsSent": 156,
+    "introsDrafted": 73,
+    "meetingsScheduled": 52,
+    "followUpsAutomated": 89
+  },
+  "humanApprovals": {
+    "emailsApproved": 68,
+    "emailsRejected": 5,
+    "approvalRate": 93.2,
+    "averageApprovalTime": "28 minutes"
+  },
+  "recentActivity": [
+    {
+      "date": "2024-01-15",
+      "agentActions": 14,
+      "humanActions": 5,
+      "meetingsBooked": 4
+    },
+    {
+      "date": "2024-01-14",
+      "agentActions": 18,
+      "humanActions": 7,
+      "meetingsBooked": 3
+    },
+    {
+      "date": "2024-01-13",
+      "agentActions": 11,
+      "humanActions": 4,
+      "meetingsBooked": 5
+    },
+    {
+      "date": "2024-01-12",
+      "agentActions": 15,
+      "humanActions": 6,
+      "meetingsBooked": 2
+    },
+    {
+      "date": "2024-01-11",
+      "agentActions": 13,
+      "humanActions": 3,
+      "meetingsBooked": 3
+    },
+    {
+      "date": "2024-01-10",
+      "agentActions": 10,
+      "humanActions": 8,
+      "meetingsBooked": 1
+    },
+    {
+      "date": "2024-01-09",
+      "agentActions": 16,
+      "humanActions": 4,
+      "meetingsBooked": 4
+    }
+  ],
+  "weeklyTrends": {
+    "totalContacts": 156,
+    "newProspects": 23,
+    "warmIntrosFound": 8,
+    "coldOutreachSent": 15,
+    "responsesReceived": 34,
+    "meetingsScheduled": 11,
+    "dealsPending": 3
+  },
+  "performanceMetrics": {
+    "agentEfficiency": 94.2,
+    "humanSatisfaction": 4.8,
+    "timeToFirstMeeting": "2.3 days",
+    "costPerLead": "$127",
+    "roi": "340%"
+  }
+}

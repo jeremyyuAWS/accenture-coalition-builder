@@ -1,0 +1,92 @@
+[
+  {
+    "id": "1",
+    "investorId": "1",
+    "companyId": "1",
+    "threadId": "thread_sarah_chen_001",
+    "subject": "Introduction: John Doe (DataFlow Solutions) <> Sarah Chen (Accel)",
+    "type": "warm_introduction",
+    "status": "sent",
+    "timestamp": "2024-01-15T11:20:00Z",
+    "from": {
+      "name": "Coalition Builder Agent",
+      "email": "agent@coalitionbuilder.ai"
+    },
+    "to": [
+      {
+        "name": "Sarah Chen",
+        "email": "sarah.chen@accel.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "John Doe",
+        "email": "john@dataflow.com"
+      },
+      {
+        "name": "John Smith",
+        "email": "john.smith@techcorp.com"
+      }
+    ],
+    "content": "Hi Sarah,\n\nHope you're doing well! I wanted to introduce you to John Doe, CEO and Co-founder of DataFlow Solutions.\n\nDataFlow has built an impressive AI-powered analytics platform that's gained significant traction with enterprise clients - they're at $2.1M ARR with 15% month-over-month growth. Given your recent investments in DataVault and AnalyticsPro, I thought this would be a perfect fit for your portfolio.\n\nA few highlights that might interest you:\n• 45 enterprise customers with 95% retention\n• Strong unit economics with 78% gross margins\n• Experienced team (John was VP Eng at Salesforce, Jane was Senior Data Scientist at Google)\n• Raising their Series A to accelerate sales and expand their engineering team\n\nJohn, Sarah is a Partner at Accel who led the Series A rounds for DataVault ($12M) and AnalyticsPro ($15M). She has deep expertise in the enterprise analytics space and would be a fantastic addition to your round.\n\nI'll let you both take it from here. Looking forward to seeing where this goes!\n\nBest,\nJohn Smith",
+    "aiGenerated": true,
+    "humanApproved": true,
+    "responseReceived": true,
+    "responseTime": "2024-01-15T14:45:00Z"
+  },
+  {
+    "id": "2",
+    "investorId": "1", 
+    "companyId": "1",
+    "threadId": "thread_sarah_chen_001",
+    "subject": "Re: Introduction: John Doe (DataFlow Solutions) <> Sarah Chen (Accel)",
+    "type": "response",
+    "status": "received",
+    "timestamp": "2024-01-15T14:45:00Z",
+    "from": {
+      "name": "Sarah Chen",
+      "email": "sarah.chen@accel.com"
+    },
+    "to": [
+      {
+        "name": "John Doe",
+        "email": "john@dataflow.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "John Smith",
+        "email": "john.smith@techcorp.com"
+      }
+    ],
+    "content": "Thanks for the introduction, John!\n\nJohn - DataFlow sounds really interesting, especially given the traction metrics you mentioned. The enterprise analytics space is definitely heating up, and your background at Salesforce gives you a unique perspective on what enterprises need.\n\nI'd love to learn more about your approach to the market and how you're differentiating from other analytics platforms. Would you be available for a quick coffee chat next week? I'm free Tuesday or Wednesday afternoon.\n\nLooking forward to connecting!\n\nBest,\nSarah\n\nSarah Chen\nPartner, Accel Partners\nsarah.chen@accel.com\n(415) 555-0123",
+    "aiGenerated": false,
+    "sentiment": "positive",
+    "nextAction": "schedule_meeting"
+  },
+  {
+    "id": "3",
+    "investorId": "2",
+    "companyId": "1",
+    "threadId": "thread_marcus_rodriguez_001",
+    "subject": "DataFlow Solutions - Series A Opportunity",
+    "type": "cold_outreach",
+    "status": "sent",
+    "timestamp": "2024-01-14T16:45:00Z",
+    "from": {
+      "name": "Coalition Builder Agent",
+      "email": "agent@coalitionbuilder.ai"
+    },
+    "to": [
+      {
+        "name": "Marcus Rodriguez",
+        "email": "marcus.rodriguez@kpcb.com"
+      }
+    ],
+    "content": "Hi Marcus,\n\nI hope this email finds you well. I'm reaching out regarding DataFlow Solutions, an enterprise analytics platform that I believe aligns perfectly with Kleiner Perkins' investment thesis.\n\nDataFlow has achieved impressive milestones that mirror your successful investment in TechFlow:\n• $2.1M ARR with 15% MoM growth\n• 45 enterprise customers with 95% retention\n• Strong technical team led by former Salesforce and Google executives\n• Proven product-market fit in a rapidly expanding market\n\nGiven your expertise in enterprise software and track record with companies like TechFlow, I thought you'd be interested in learning more about their Series A round.\n\nWould you be open to a brief conversation about DataFlow? I'd be happy to share more details about their traction, technology, and growth plans.\n\nBest regards,\nCoalition Builder AI\n\nP.S. I've attached their latest pitch deck and key metrics summary for your review.",
+    "aiGenerated": true,
+    "humanApproved": true,
+    "responseReceived": false,
+    "followUpScheduled": "2024-01-16T09:00:00Z"
+  }
+]

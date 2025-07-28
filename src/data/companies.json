@@ -1,0 +1,61 @@
+[
+  {
+    "id": "1",
+    "name": "DataFlow Solutions",
+    "industry": "Enterprise Software",
+    "stage": "Series A",
+    "targetRaise": "$12M",
+    "valuation": "$48M",
+    "description": "AI-powered data analytics platform for enterprise clients",
+    "founded": "2022",
+    "employees": 28,
+    "revenue": "$2.1M ARR",
+    "growth": "15% MoM",
+    "location": "San Francisco, CA",
+    "founders": [
+      {
+        "name": "John Doe",
+        "title": "CEO & Co-founder",
+        "background": "Former VP of Engineering at Salesforce"
+      },
+      {
+        "name": "Jane Smith", 
+        "title": "CTO & Co-founder",
+        "background": "Former Senior Data Scientist at Google"
+      }
+    ],
+    "metrics": {
+      "customers": 45,
+      "retention": "95%",
+      "grossMargin": "78%",
+      "burnRate": "$180K/month"
+    }
+  },
+  {
+    "id": "2", 
+    "name": "HealthTech Innovations",
+    "industry": "Healthcare Technology",
+    "stage": "Seed",
+    "targetRaise": "$3M",
+    "valuation": "$15M", 
+    "description": "Digital health platform connecting patients with specialists",
+    "founded": "2023",
+    "employees": 12,
+    "revenue": "$340K ARR",
+    "growth": "25% MoM",
+    "location": "Boston, MA",
+    "founders": [
+      {
+        "name": "Dr. Sarah Johnson",
+        "title": "CEO & Co-founder", 
+        "background": "Former Chief Medical Officer at Teladoc"
+      }
+    ],
+    "metrics": {
+      "customers": 12,
+      "retention": "88%",
+      "grossMargin": "65%",
+      "burnRate": "$85K/month"
+    }
+  }
+]

@@ -1,0 +1,206 @@
+[
+  {
+    "id": "1",
+    "name": "Sarah Chen",
+    "title": "Partner",
+    "company": "Accel Partners",
+    "email": "sarah.chen@accel.com",
+    "fitScore": 92,
+    "explainability": "Led Series A investments in 3 similar B2B SaaS startups in the last 18 months, including DataVault ($12M) and AnalyticsPro ($15M). Strong portfolio overlap in enterprise analytics space.",
+    "status": "recommended",
+    "avatar": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
+    "lastActivity": "2024-01-15T10:30:00Z",
+    "warmIntro": "2nd degree via John Smith (former CTO at TechCorp)",
+    "linkedinUrl": "https://linkedin.com/in/sarah-chen-accel",
+    "investmentFocus": ["B2B SaaS", "Enterprise Software", "Data Analytics"],
+    "checkSize": "$2M - $5M",
+    "portfolioCompanies": ["DataVault", "AnalyticsPro", "CloudSync", "MetricFlow"],
+    "recentInvestments": [
+      {
+        "company": "DataVault",
+        "round": "Series A",
+        "amount": "$12M",
+        "date": "2023-11-15"
+      },
+      {
+        "company": "AnalyticsPro", 
+        "round": "Series A",
+        "amount": "$15M",
+        "date": "2023-08-20"
+      }
+    ],
+    "bio": "Sarah is a Partner at Accel with over 8 years of experience investing in B2B software companies. She focuses on enterprise analytics, data infrastructure, and AI-powered platforms.",
+    "investmentCriteria": {
+      "stage": ["Seed", "Series A"],
+      "revenue": "$1M+ ARR",
+      "growth": "10%+ MoM",
+      "market": ["Enterprise", "SMB"],
+      "geography": ["North America", "Europe"]
+    }
+  },
+  {
+    "id": "2",
+    "name": "Marcus Rodriguez",
+    "title": "Managing Director",
+    "company": "Kleiner Perkins",
+    "email": "marcus.rodriguez@kpcb.com",
+    "fitScore": 87,
+    "explainability": "Strong portfolio overlap with 5 enterprise software investments. Previously led Series A for DataFlow competitor (similar market size and business model). Known for hands-on support with go-to-market strategy.",
+    "status": "outreach_in_progress",
+    "avatar": "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
+    "lastActivity": "2024-01-14T16:45:00Z",
+    "warmIntro": "1st degree connection",
+    "linkedinUrl": "https://linkedin.com/in/marcus-rodriguez-kp",
+    "investmentFocus": ["Enterprise Software", "AI/ML", "Developer Tools"],
+    "checkSize": "$3M - $8M",
+    "portfolioCompanies": ["TechFlow", "DevTools Pro", "AI Insights", "CloudOps"],
+    "recentInvestments": [
+      {
+        "company": "TechFlow",
+        "round": "Series A", 
+        "amount": "$18M",
+        "date": "2023-10-10"
+      }
+    ],
+    "bio": "Marcus leads enterprise software investments at Kleiner Perkins. He has a strong track record of supporting founders with scaling challenges and building enterprise sales teams.",
+    "investmentCriteria": {
+      "stage": ["Series A", "Series B"],
+      "revenue": "$2M+ ARR",
+      "growth": "15%+ MoM",
+      "market": ["Enterprise"],
+      "geography": ["North America"]
+    }
+  },
+  {
+    "id": "3", 
+    "name": "Emily Watson",
+    "title": "Principal",
+    "company": "Sequoia Capital",
+    "email": "emily.watson@sequoia.com",
+    "fitScore": 94,
+    "explainability": "Led investments in 7 startups with similar revenue models and business metrics. Particular expertise in go-to-market strategy for B2B platforms. Recently backed two companies in adjacent markets.",
+    "status": "meeting_confirmed",
+    "avatar": "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
+    "lastActivity": "2024-01-13T09:15:00Z",
+    "warmIntro": "Warm intro via Alex Johnson",
+    "linkedinUrl": "https://linkedin.com/in/emily-watson-sequoia",
+    "investmentFocus": ["B2B SaaS", "Marketplace", "Fintech"],
+    "checkSize": "$5M - $12M",
+    "portfolioCompanies": ["MarketPlace Pro", "FinTech Solutions", "B2B Connect"],
+    "recentInvestments": [
+      {
+        "company": "MarketPlace Pro",
+        "round": "Series A",
+        "amount": "$20M", 
+        "date": "2023-12-05"
+      }
+    ],
+    "bio": "Emily is a Principal at Sequoia Capital focusing on B2B software and marketplace companies. She has deep expertise in helping companies scale their go-to-market operations.",
+    "investmentCriteria": {
+      "stage": ["Series A", "Series B"],
+      "revenue": "$3M+ ARR", 
+      "growth": "20%+ MoM",
+      "market": ["Enterprise", "SMB"],
+      "geography": ["Global"]
+    }
+  },
+  {
+    "id": "4",
+    "name": "David Park",
+    "title": "General Partner", 
+    "company": "Greylock Partners",
+    "email": "david.park@greylock.com",
+    "fitScore": 78,
+    "explainability": "Previous investments in adjacent markets with strong network in enterprise sales. Recently backed two Series A companies in similar sectors, though at earlier revenue stages.",
+    "status": "declined",
+    "avatar": "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
+    "lastActivity": "2024-01-12T14:20:00Z",
+    "warmIntro": "Direct outreach",
+    "linkedinUrl": "https://linkedin.com/in/david-park-greylock",
+    "investmentFocus": ["Enterprise Software", "Security", "Infrastructure"],
+    "checkSize": "$2M - $6M",
+    "portfolioCompanies": ["SecureFlow", "InfraTech", "DataGuard"],
+    "recentInvestments": [
+      {
+        "company": "SecureFlow",
+        "round": "Series A",
+        "amount": "$8M",
+        "date": "2023-09-15"
+      }
+    ],
+    "bio": "David is a General Partner at Greylock Partners with expertise in enterprise infrastructure and security companies. He focuses on technical founders building category-defining companies.",
+    "investmentCriteria": {
+      "stage": ["Seed", "Series A"],
+      "revenue": "$500K+ ARR",
+      "growth": "12%+ MoM", 
+      "market": ["Enterprise"],
+      "geography": ["North America", "Europe"]
+    }
+  },
+  {
+    "id": "5",
+    "name": "Lisa Kumar",
+    "title": "Senior Associate",
+    "company": "Andreessen Horowitz",
+    "email": "lisa.kumar@a16z.com",
+    "fitScore": 85,
+    "explainability": "Recently promoted to Senior Associate with focus on enterprise software. Strong technical background and experience with data analytics companies. Actively sourcing Series A opportunities.",
+    "status": "recommended", 
+    "avatar": "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
+    "lastActivity": "2024-01-11T11:22:00Z",
+    "warmIntro": "2nd degree via Sarah Wilson (Stanford alumni network)",
+    "linkedinUrl": "https://linkedin.com/in/lisa-kumar-a16z",
+    "investmentFocus": ["Enterprise Software", "Developer Tools", "AI/ML"],
+    "checkSize": "$3M - $7M",
+    "portfolioCompanies": ["DevStack", "MLOps Pro", "CodeFlow"],
+    "recentInvestments": [
+      {
+        "company": "DevStack",
+        "round": "Series A",
+        "amount": "$10M",
+        "date": "2023-11-28"
+      }
+    ],
+    "bio": "Lisa is a Senior Associate at a16z focusing on enterprise software and developer tools. She has a computer science background and strong technical diligence capabilities.",
+    "investmentCriteria": {
+      "stage": ["Seed", "Series A"],
+      "revenue": "$1M+ ARR",
+      "growth": "15%+ MoM",
+      "market": ["Developer", "Enterprise"],
+      "geography": ["North America"]
+    }
+  },
+  {
+    "id": "6",
+    "name": "Robert Kim",
+    "title": "Partner",
+    "company": "Index Ventures", 
+    "email": "robert.kim@indexventures.com",
+    "fitScore": 91,
+    "explainability": "Exceptional track record with enterprise analytics companies. Led successful exits at DataCore ($240M) and AnalyticsFirst ($180M). Strong operational support for scaling teams.",
+    "status": "recommended",
+    "avatar": "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
+    "lastActivity": "2024-01-10T15:45:00Z",
+    "warmIntro": "2nd degree via Michael Brown (former colleague)",
+    "linkedinUrl": "https://linkedin.com/in/robert-kim-index",
+    "investmentFocus": ["B2B SaaS", "Data Analytics", "Enterprise AI"],
+    "checkSize": "$4M - $10M",
+    "portfolioCompanies": ["DataCore", "AnalyticsFirst", "InsightPro", "MetricsDash"],
+    "recentInvestments": [
+      {
+        "company": "InsightPro",
+        "round": "Series B",
+        "amount": "$25M",
+        "date": "2023-12-20"
+      }
+    ],
+    "bio": "Robert is a Partner at Index Ventures with deep expertise in enterprise data and analytics companies. He has a strong track record of successful exits and operational support.",
+    "investmentCriteria": {
+      "stage": ["Series A", "Series B"],
+      "revenue": "$2M+ ARR",
+      "growth": "18%+ MoM",
+      "market": ["Enterprise"],
+      "geography": ["Global"]
+    }
+  }
+]

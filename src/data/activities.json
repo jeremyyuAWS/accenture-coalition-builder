@@ -1,0 +1,82 @@
+[
+  {
+    "id": "1",
+    "type": "agent_action",
+    "owner": "Agent",
+    "action": "Found warm introduction path",
+    "details": "Identified 2nd degree connection via John Smith (former CTO at TechCorp) to Sarah Chen at Accel Partners",
+    "timestamp": "2024-01-15T10:30:00Z",
+    "investorId": "1",
+    "status": "completed"
+  },
+  {
+    "id": "2",
+    "type": "agent_action",
+    "owner": "Agent",
+    "action": "Generated personalized intro email",
+    "details": "Drafted warm introduction email highlighting portfolio fit and mutual connections. Awaiting approval.",
+    "timestamp": "2024-01-15T10:35:00Z",
+    "investorId": "1",
+    "status": "pending_approval"
+  },
+  {
+    "id": "3",
+    "type": "human_action",
+    "owner": "You",
+    "action": "Approved intro email",
+    "details": "Reviewed and approved the introduction email to Sarah Chen. Ready for outreach.",
+    "timestamp": "2024-01-15T11:15:00Z",
+    "investorId": "1",
+    "status": "completed"
+  },
+  {
+    "id": "4",
+    "type": "agent_action",
+    "owner": "Agent",
+    "action": "Sent introduction email",
+    "details": "Warm introduction email sent to Sarah Chen via John Smith. Email includes company deck and key metrics.",
+    "timestamp": "2024-01-15T11:20:00Z",
+    "investorId": "1",
+    "status": "completed"
+  },
+  {
+    "id": "5",
+    "type": "agent_action",
+    "owner": "Agent",
+    "action": "Received positive response",
+    "details": "Sarah Chen responded with interest. Mentioned availability for a call next week. Proceeding to schedule.",
+    "timestamp": "2024-01-15T14:45:00Z",
+    "investorId": "1",
+    "status": "completed"
+  },
+  {
+    "id": "6",
+    "type": "agent_action",
+    "owner": "Agent",
+    "action": "Calendar integration initiated",
+    "details": "Analyzing both calendars to find optimal meeting time. Found 3 potential slots next Tuesday-Wednesday.",
+    "timestamp": "2024-01-15T15:00:00Z",
+    "investorId": "1",
+    "status": "in_progress"
+  },
+  {
+    "id": "7",
+    "type": "agent_action",
+    "owner": "Agent",
+    "action": "Direct outreach to Marcus Rodriguez",
+    "details": "Sent personalized cold email highlighting portfolio synergies and recent Series A metrics.",
+    "timestamp": "2024-01-14T16:45:00Z",
+    "investorId": "2",
+    "status": "completed"
+  },
+  {
+    "id": "8",
+    "type": "agent_action",
+    "owner": "Agent",
+    "action": "Follow-up scheduled",
+    "details": "No response received. Follow-up email scheduled for tomorrow with additional context about market opportunity.",
+    "timestamp": "2024-01-15T09:00:00Z",
+    "investorId": "2",
+    "status": "scheduled"
+  }
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "id": "1",
+    "type": "agent_completed",
+    "title": "Warm introduction sent",
+    "message": "Agent successfully sent warm introduction to Sarah Chen via John Smith",
+    "timestamp": "2024-01-15T11:20:00Z",
+    "read": false,
+    "priority": "medium",
+    "investorId": "1",
+    "actionRequired": false
+  },
+  {
+    "id": "2",
+    "type": "response_received",
+    "title": "Positive response from Sarah Chen",
+    "message": "Sarah Chen responded with interest and requested a coffee meeting",
+    "timestamp": "2024-01-15T14:45:00Z", 
+    "read": false,
+    "priority": "high",
+    "investorId": "1",
+    "actionRequired": true,
+    "actionText": "Schedule meeting"
+  },
+  {
+    "id": "3",
+    "type": "meeting_scheduled",
+    "title": "Meeting confirmed with Emily Watson",
+    "message": "Series A discussion scheduled for Jan 18th at 2:00 PM",
+    "timestamp": "2024-01-13T09:15:00Z",
+    "read": true,
+    "priority": "high",
+    "investorId": "3",
+    "actionRequired": false
+  },
+  {
+    "id": "4",
+    "type": "follow_up_due",
+    "title": "Follow-up needed",
+    "message": "No response from Marcus Rodriguez after 2 days. Consider follow-up email.",
+    "timestamp": "2024-01-16T09:00:00Z",
+    "read": false,
+    "priority": "medium", 
+    "investorId": "2",
+    "actionRequired": true,
+    "actionText": "Send follow-up"
+  },
+  {
+    "id": "5",
+    "type": "approval_needed",
+    "title": "Email draft needs approval",
+    "message": "Follow-up email to Marcus Rodriguez drafted and ready for review",
+    "timestamp": "2024-01-16T09:30:00Z",
+    "read": false,
+    "priority": "medium",
+    "investorId": "2", 
+    "actionRequired": true,
+    "actionText": "Review draft"
+  }
+]

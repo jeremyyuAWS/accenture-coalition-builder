@@ -1,0 +1,258 @@
+[
+  {
+    "id": "network_001",
+    "name": "DataFlow Coalition Network",
+    "nodes": [
+      {
+        "id": "dataflow",
+        "name": "DataFlow Solutions",
+        "type": "company",
+        "x": 0,
+        "y": 0,
+        "size": 20,
+        "color": "#3B82F6"
+      },
+      {
+        "id": "investor_1",
+        "name": "Sarah Chen",
+        "type": "investor",
+        "company": "Accel Partners",
+        "fitScore": 92,
+        "x": 150,
+        "y": -100,
+        "size": 15,
+        "color": "#10B981"
+      },
+      {
+        "id": "investor_2", 
+        "name": "Marcus Rodriguez",
+        "type": "investor",
+        "company": "Kleiner Perkins",
+        "fitScore": 87,
+        "x": 150,
+        "y": 0,
+        "size": 15,
+        "color": "#F59E0B"
+      },
+      {
+        "id": "investor_3",
+        "name": "Emily Watson",
+        "type": "investor", 
+        "company": "Sequoia Capital",
+        "fitScore": 94,
+        "x": 150,
+        "y": 100,
+        "size": 15,
+        "color": "#10B981"
+      },
+      {
+        "id": "connector_1",
+        "name": "John Smith",
+        "type": "connector",
+        "company": "TechCorp",
+        "relationship": "Former colleague",
+        "x": 75,
+        "y": -100,
+        "size": 10,
+        "color": "#8B5CF6"
+      },
+      {
+        "id": "connector_2",
+        "name": "Alex Johnson",
+        "type": "connector",
+        "company": "StartupCo",
+        "relationship": "Mutual connection",
+        "x": 75,
+        "y": 0,
+        "size": 10,
+        "color": "#8B5CF6"
+      },
+      {
+        "id": "connector_3",
+        "name": "Maria Garcia",
+        "type": "connector",
+        "company": "TechFlow",
+        "relationship": "Portfolio founder",
+        "x": 75,
+        "y": 100,
+        "size": 10,
+        "color": "#8B5CF6"
+      }
+    ],
+    "links": [
+      {
+        "source": "dataflow",
+        "target": "connector_1",
+        "strength": 95,
+        "type": "direct_connection",
+        "label": "Former Salesforce colleagues"
+      },
+      {
+        "source": "connector_1",
+        "target": "investor_1",
+        "strength": 85,
+        "type": "warm_introduction",
+        "label": "Professional network"
+      },
+      {
+        "source": "dataflow",
+        "target": "connector_2",
+        "strength": 70,
+        "type": "2nd_degree",
+        "label": "Industry connections"
+      },
+      {
+        "source": "connector_2",
+        "target": "investor_2",
+        "strength": 78,
+        "type": "warm_introduction",
+        "label": "Portfolio company founder"
+      },
+      {
+        "source": "dataflow",
+        "target": "connector_3",
+        "strength": 88,
+        "type": "direct_connection",
+        "label": "Customer reference"
+      },
+      {
+        "source": "connector_3",
+        "target": "investor_3",
+        "strength": 92,
+        "type": "warm_introduction",
+        "label": "Successful portfolio exit"
+      },
+      {
+        "source": "investor_1",
+        "target": "investor_3",
+        "strength": 65,
+        "type": "co_investment",
+        "label": "Co-invested in DataVault"
+      },
+      {
+        "source": "investor_2",
+        "target": "investor_3",
+        "strength": 45,
+        "type": "professional",
+        "label": "Industry events"
+      }
+    ]
+  },
+  {
+    "id": "network_002",
+    "name": "Coalition Interconnections",
+    "nodes": [
+      {
+        "id": "inv_sarah",
+        "name": "Sarah Chen",
+        "type": "lead_investor",
+        "company": "Accel",
+        "investment": "$5M",
+        "x": 0,
+        "y": 0,
+        "size": 18,
+        "color": "#10B981"
+      },
+      {
+        "id": "inv_emily",
+        "name": "Emily Watson", 
+        "type": "coalition_member",
+        "company": "Sequoia",
+        "investment": "$4M",
+        "x": 100,
+        "y": -50,
+        "size": 16,
+        "color": "#3B82F6"
+      },
+      {
+        "id": "inv_marcus",
+        "name": "Marcus Rodriguez",
+        "type": "coalition_member",
+        "company": "Kleiner Perkins",
+        "investment": "$3M",
+        "x": 100,
+        "y": 50,
+        "size": 14,
+        "color": "#F59E0B"
+      },
+      {
+        "id": "portfolio_1",
+        "name": "DataVault",
+        "type": "portfolio_overlap",
+        "x": -80,
+        "y": -40,
+        "size": 8,
+        "color": "#EF4444"
+      },
+      {
+        "id": "portfolio_2",
+        "name": "AnalyticsPro",
+        "type": "portfolio_overlap",
+        "x": -80,
+        "y": 40,
+        "size": 8,
+        "color": "#EF4444"
+      },
+      {
+        "id": "portfolio_3",
+        "name": "TechFlow",
+        "type": "portfolio_overlap", 
+        "x": -40,
+        "y": 80,
+        "size": 8,
+        "color": "#EF4444"
+      }
+    ],
+    "links": [
+      {
+        "source": "inv_sarah",
+        "target": "inv_emily",
+        "strength": 75,
+        "type": "co_investment_history",
+        "label": "Co-invested 3x"
+      },
+      {
+        "source": "inv_sarah",
+        "target": "inv_marcus",
+        "strength": 45,
+        "type": "professional_network",
+        "label": "Industry connections"
+      },
+      {
+        "source": "inv_emily",
+        "target": "inv_marcus",
+        "strength": 30,
+        "type": "competitive_dynamic",
+        "label": "Competing deals"
+      },
+      {
+        "source": "inv_sarah",
+        "target": "portfolio_1",
+        "strength": 100,
+        "type": "investment",
+        "label": "Led Series A"
+      },
+      {
+        "source": "inv_sarah",
+        "target": "portfolio_2",
+        "strength": 100,
+        "type": "investment",
+        "label": "Led Series A"
+      },
+      {
+        "source": "inv_emily",
+        "target": "portfolio_1",
+        "strength": 60,
+        "type": "co_investment",
+        "label": "Participated"
+      },
+      {
+        "source": "inv_marcus",
+        "target": "portfolio_3",
+        "strength": 100,
+        "type": "investment",
+        "label": "Led Series A"
+      }
+    ]
+  }
+]

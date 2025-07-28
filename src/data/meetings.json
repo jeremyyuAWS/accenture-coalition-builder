@@ -1,0 +1,108 @@
+[
+  {
+    "id": "1",
+    "investorId": "3",
+    "companyId": "1",
+    "title": "Series A Discussion",
+    "type": "initial_meeting",
+    "status": "scheduled",
+    "dateTime": "2024-01-18T14:00:00Z",
+    "duration": 60,
+    "location": "Sequoia Capital Office",
+    "attendees": [
+      {
+        "name": "Emily Watson",
+        "role": "investor",
+        "email": "emily.watson@sequoia.com"
+      },
+      {
+        "name": "John Doe", 
+        "role": "founder",
+        "email": "john@dataflow.com"
+      },
+      {
+        "name": "Jane Smith",
+        "role": "founder",
+        "email": "jane@dataflow.com"
+      }
+    ],
+    "agenda": [
+      "Company overview and traction",
+      "Market opportunity discussion",
+      "Technology deep dive",
+      "Team and hiring plans",
+      "Funding timeline and use of funds"
+    ],
+    "prepNotes": "Emily is particularly interested in enterprise sales metrics and customer acquisition strategy. Prepare detailed cohort analysis and pipeline data.",
+    "followUpTasks": [
+      "Send detailed financial model",
+      "Provide customer references",
+      "Share technical architecture overview"
+    ]
+  },
+  {
+    "id": "2",
+    "investorId": "1", 
+    "companyId": "1",
+    "title": "Coffee Chat - Market Insights",
+    "type": "informal_meeting",
+    "status": "completed",
+    "dateTime": "2024-01-10T10:30:00Z",
+    "duration": 45,
+    "location": "Blue Bottle Coffee, SOMA",
+    "attendees": [
+      {
+        "name": "Sarah Chen",
+        "role": "investor", 
+        "email": "sarah.chen@accel.com"
+      },
+      {
+        "name": "John Doe",
+        "role": "founder",
+        "email": "john@dataflow.com"
+      }
+    ],
+    "outcome": "Very positive discussion about market timing and competitive landscape. Sarah expressed strong interest in leading the round.",
+    "nextSteps": [
+      "Schedule formal pitch meeting",
+      "Intro to technical partner",
+      "Share term sheet template"
+    ],
+    "notes": "Sarah mentioned similar investment in DataVault performed exceptionally well. She's looking for 2-3 more companies in this space for her portfolio."
+  },
+  {
+    "id": "3",
+    "investorId": "2",
+    "companyId": "1", 
+    "title": "Technical Diligence Session",
+    "type": "due_diligence",
+    "status": "scheduled",
+    "dateTime": "2024-01-22T16:00:00Z",
+    "duration": 90,
+    "location": "Virtual - Zoom",
+    "attendees": [
+      {
+        "name": "Marcus Rodriguez",
+        "role": "investor",
+        "email": "marcus.rodriguez@kpcb.com"
+      },
+      {
+        "name": "Dr. Alex Thompson",
+        "role": "technical_partner",
+        "email": "alex.thompson@kpcb.com"
+      },
+      {
+        "name": "Jane Smith",
+        "role": "founder",
+        "email": "jane@dataflow.com"
+      }
+    ],
+    "agenda": [
+      "Architecture walkthrough",
+      "Security and compliance discussion", 
+      "Scalability planning",
+      "Technical roadmap review"
+    ],
+    "prepNotes": "Marcus wants to understand our AI/ML capabilities and data processing infrastructure. Prepare demo environment and technical documentation."
+  }
+]

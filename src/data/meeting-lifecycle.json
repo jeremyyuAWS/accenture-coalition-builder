@@ -1,0 +1,191 @@
+[
+  {
+    "id": "meeting_001",
+    "investorId": "3",
+    "companyId": "1",
+    "threadId": "thread_emily_watson_001",
+    "type": "initial_pitch",
+    "status": "completed",
+    "stage": "post_meeting",
+    "
+": "Series A Discussion with Sequoia",
+    "dateTime": "2024-01-18T14:00:00Z",
+    "duration": 75,
+    "location": "Sequoia Capital Office, Sand Hill Road",
+    "lifecycle": {
+      "preMeeting": {
+        "agentPrep": {
+          "timestamp": "2024-01-17T10:00:00Z",
+          "researchCompleted": true,
+          "materialsGenerated": [
+            "investor_brief_sequoia.pdf",
+            "pitch_deck_customized.pdf", 
+            "financial_model_detailed.xlsx",
+            "competitive_landscape.pdf"
+          ],
+          "talkingPoints": [
+            "Emphasize scalability of AI engine - aligns with Sequoia's portfolio thesis",
+            "Highlight enterprise customer validation - 45 customers with 95% retention",
+            "Focus on market timing - enterprise analytics market growing 25% YoY",
+            "Demonstrate clear path to $100M ARR based on current unit economics"
+          ],
+          "riskMitigation": [
+            "Address potential concern about competitive landscape",
+            "Prepare response on AI model differentiation", 
+            "Have backup slides on international expansion plans"
+          ],
+          "agentConfidence": 87
+        },
+        "humanPrep": {
+          "timestamp": "2024-01-17T16:30:00Z",
+          "materialsReviewed": true,
+          "practiceSession": "2024-01-17T19:00:00Z",
+          "keyMessages": [
+            "DataFlow is uniquely positioned to become the Salesforce of enterprise analytics",
+            "Our AI-first approach delivers 10x faster insights than traditional BI tools",
+            "Strong founder-market fit with deep enterprise sales experience"
+          ]
+        }
+      },
+      "duringMeeting": {
+        "attendees": [
+          {
+            "name": "Emily Watson",
+            "role": "investor", 
+            "company": "Sequoia Capital",
+            "title": "Principal"
+          },
+          {
+            "name": "Dr. Michael Chen",
+            "role": "technical_partner",
+            "company": "Sequoia Capital", 
+            "title": "Technical Advisor"
+          },
+          {
+            "name": "John Doe",
+            "role": "founder",
+            "company": "DataFlow Solutions",
+            "title": "CEO & Co-founder"
+          },
+          {
+            "name": "Jane Smith",
+            "role": "founder",
+            "company": "DataFlow Solutions",
+            "title": "CTO & Co-founder"  
+          }
+        ],
+        "agenda": [
+          {
+            "topic": "Company Overview & Vision",
+            "duration": 15,
+            "owner": "John Doe",
+            "completed": true
+          },
+          {
+            "topic": "Product Deep Dive & Demo",
+            "duration": 20,
+            "owner": "Jane Smith", 
+            "completed": true
+          },
+          {
+            "topic": "Market Opportunity & Competitive Landscape",
+            "duration": 15,
+            "owner": "John Doe",
+            "completed": true
+          },
+          {
+            "topic": "Business Model & Unit Economics",
+            "duration": 15,
+            "owner": "John Doe",
+            "completed": true
+          },
+          {
+            "topic": "Technical Architecture Discussion", 
+            "duration": 10,
+            "owner": "Dr. Michael Chen",
+            "completed": true
+          }
+        ],
+        "keyDiscussionPoints": [
+          "Emily expressed strong interest in our approach to real-time analytics",
+          "Michael asked detailed questions about ML model architecture and scalability",
+          "Positive feedback on customer retention metrics and enterprise validation",
+          "Discussion about international expansion timeline and strategy",
+          "Questions about competitive differentiation vs. Tableau and PowerBI"
+        ],
+        "concerns": [
+          "Competitive pressure from Microsoft's Power Platform",
+          "Scalability of customer success organization", 
+          "Timeline for achieving $10M ARR milestone"
+        ]
+      },
+      "postMeeting": {
+        "agentAnalysis": {
+          "timestamp": "2024-01-18T15:30:00Z",
+          "sentimentAnalysis": "very_positive",
+          "keySignals": [
+            "Extended meeting by 15 minutes - shows high engagement",
+            "Technical partner asked detailed architecture questions - serious interest",
+            "Requested detailed financial model - moving to due diligence phase",
+            "Mentioned portfolio company introductions - strong positive signal"
+          ],
+          "nextStepsRecommended": [
+            "Send detailed financial model within 24 hours",
+            "Prepare customer reference list for due diligence",
+            "Schedule follow-up technical deep dive with Dr. Chen",
+            "Begin preparing for partner meeting presentation"
+          ],
+          "probability": 78,
+          "timeline": "2-3 weeks to term sheet"
+        },
+        "humanDebrief": {
+          "timestamp": "2024-01-18T16:00:00Z", 
+          "overallFeedback": "Excellent meeting - Emily and Michael were clearly engaged",
+          "whatWentWell": [
+            "Product demo resonated strongly",
+            "Customer metrics impressed the team",
+            "Technical questions showed serious interest"  
+          ],
+          "areasForImprovement": [
+            "Could have been more specific about competitive differentiation",
+            "Should have brought more detailed international expansion plans"
+          ],
+          "nextActions": [
+            "Send financial model by end of day",
+            "Prepare customer reference contacts",
+            "Schedule technical follow-up within 1 week"
+          ]
+        },
+        "followUp": {
+          "emailsSent": [
+            {
+              "timestamp": "2024-01-18T18:45:00Z",
+              "to": "Emily Watson",
+              "subject": "Thank you + DataFlow Financial Model",
+              "agentGenerated": true,
+              "humanApproved": true,
+              "content": "Hi Emily,\n\nThank you for the engaging discussion today. It was clear that you and Michael have a deep understanding of the enterprise analytics space, and your questions helped us articulate our differentiation even more clearly.\n\nAs requested, I've attached our detailed financial model including unit economics, customer cohort analysis, and growth projections. A few key highlights:\n\n• Current LTV/CAC ratio of 4.2x with payback period of 14 months\n• 95% gross revenue retention expanding to 115% net retention\n• Clear path to $10M ARR by end of 2024 based on current pipeline\n\nI'd love to schedule that technical deep dive with Dr. Chen within the next week. Jane is excited to walk through our ML architecture and scalability plans in detail.\n\nThanks again for your time and interest!\n\nBest,\nJohn"
+            }
+          ],
+          "materialsSent": [
+            "dataflow_financial_model_v2.xlsx",
+            "customer_cohort_analysis.pdf",
+            "ml_architecture_technical.pdf"
+          ]
+        }
+      }
+    },
+    "outcome": {
+      "result": "advancing_to_diligence",
+      "confidence": 78,
+      "timeline": "2-3 weeks",
+      "nextMilestone": "partner_meeting",
+      "agentRecommendations": [
+        "Maintain momentum with quick follow-ups",
+        "Prepare for deeper technical due diligence",
+        "Begin soft preparation for partner meeting",
+        "Continue building relationship with Dr. Chen"
+      ]
+    }
+  }
+]

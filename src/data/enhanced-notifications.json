@@ -1,0 +1,113 @@
+[
+  {
+    "id": "1",
+    "type": "meeting_scheduled",
+    "title": "Emily Watson meeting confirmed",
+    "message": "Series A pitch scheduled for tomorrow at 2:00 PM. Agent has prepared customized materials.",
+    "timestamp": "2024-01-17T16:30:00Z",
+    "read": false,
+    "priority": "high",
+    "investorId": "3",
+    "actionRequired": false
+  },
+  {
+    "id": "2",
+    "type": "response_received",
+    "title": "Positive response from Robert Kim",
+    "message": "Robert Kim responded with strong interest and availability for partner meeting next week.",
+    "timestamp": "2024-01-17T14:20:00Z", 
+    "read": false,
+    "priority": "high",
+    "investorId": "6",
+    "actionRequired": true,
+    "actionText": "Schedule meeting"
+  },
+  {
+    "id": "3",
+    "type": "agent_completed",
+    "title": "Warm intro path found for Lisa Kumar",
+    "message": "Agent discovered 2nd degree connection via Sarah Wilson (Stanford alumni network)",
+    "timestamp": "2024-01-17T12:45:00Z",
+    "read": false,
+    "priority": "medium",
+    "investorId": "5",
+    "actionRequired": false
+  },
+  {
+    "id": "4",
+    "type": "approval_needed",
+    "title": "Follow-up email needs approval",
+    "message": "Agent drafted follow-up for Marcus Rodriguez after 48h no-response. Ready for review.",
+    "timestamp": "2024-01-17T11:00:00Z",
+    "read": false,
+    "priority": "medium",
+    "investorId": "2", 
+    "actionRequired": true,
+    "actionText": "Review draft"
+  },
+  {
+    "id": "5",
+    "type": "agent_completed",
+    "title": "Meeting materials prepared",
+    "message": "Agent customized pitch deck and talking points for Emily Watson meeting",
+    "timestamp": "2024-01-17T09:15:00Z",
+    "read": true,
+    "priority": "medium",
+    "investorId": "3",
+    "actionRequired": false
+  },
+  {
+    "id": "6",
+    "type": "follow_up_due",
+    "title": "Check-in with David Park",
+    "message": "No response received after initial outreach 5 days ago. Consider alternative approach.",
+    "timestamp": "2024-01-17T08:30:00Z",
+    "read": true,
+    "priority": "low",
+    "investorId": "4",
+    "actionRequired": true,
+    "actionText": "Send follow-up"
+  },
+  {
+    "id": "7",
+    "type": "agent_completed",
+    "title": "Weekly progress report generated",
+    "message": "Coalition progress: 67% response rate, 2 meetings booked, 3 warm intros active",
+    "timestamp": "2024-01-16T17:00:00Z",
+    "read": true,
+    "priority": "low",
+    "actionRequired": false
+  },
+  {
+    "id": "8",
+    "type": "response_received",
+    "title": "Sarah Chen confirmed coffee meeting",
+    "message": "Wednesday 2 PM coffee confirmed. Agent prepared background research and talking points.",
+    "timestamp": "2024-01-16T14:45:00Z",
+    "read": true,
+    "priority": "high",
+    "investorId": "1",
+    "actionRequired": false
+  },
+  {
+    "id": "9",
+    "type": "agent_completed",
+    "title": "Calendar optimization completed",
+    "message": "Agent consolidated investor meetings to maximize preparation efficiency",
+    "timestamp": "2024-01-16T08:00:00Z",
+    "read": true,
+    "priority": "low",
+    "actionRequired": false
+  },
+  {
+    "id": "10",
+    "type": "approval_needed",
+    "title": "Partnership intro email ready",
+    "message": "Agent drafted introduction for potential Microsoft partnership discussion",
+    "timestamp": "2024-01-15T16:20:00Z",
+    "read": true,
+    "priority": "medium",
+    "actionRequired": true,
+    "actionText": "Review draft"
+  }
+]

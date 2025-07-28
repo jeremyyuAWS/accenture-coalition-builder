@@ -1,0 +1,118 @@
+[
+  {
+    "id": "decision_001",
+    "investorId": "1", 
+    "scenario": "outreach_strategy",
+    "timestamp": "2024-01-15T10:00:00Z",
+    "decision": "warm_introduction",
+    "confidence": 92,
+    "reasoning": {
+      "factors": [
+        {
+          "factor": "connection_strength", 
+          "value": "2nd_degree",
+          "weight": 0.4,
+          "score": 85,
+          "explanation": "Strong 2nd degree connection via John Smith (former colleague)"
+        },
+        {
+          "factor": "portfolio_fit",
+          "value": "high_overlap", 
+          "weight": 0.3,
+          "score": 95,
+          "explanation": "Investor has 3 similar B2B SaaS investments in last 18 months"
+        },
+        {
+          "factor": "timing_analysis",
+          "value": "optimal",
+          "weight": 0.2, 
+          "score": 88,
+          "explanation": "Investor recently closed DataVault Series A, likely seeking similar deals"
+        },
+        {
+          "factor": "response_probability",
+          "value": "high",
+          "weight": 0.1,
+          "score": 92,
+          "explanation": "Similar warm intros to this investor have 78% response rate"
+        }
+      ],
+      "alternatives_considered": [
+        {
+          "option": "cold_outreach",
+          "score": 45,
+          "reason_rejected": "Lower response rate (23%) and lacks personal connection leverage"
+        },
+        {
+          "option": "social_media_engagement",
+          "score": 32,
+          "reason_rejected": "Too indirect for Series A timing needs"
+        }
+      ],
+      "risk_factors": [
+        {
+          "risk": "connector_availability",
+          "probability": 0.15,
+          "mitigation": "Have backup connector via LinkedIn mutual connections"
+        }
+      ]
+    },
+    "outcome": {
+      "executed": true,
+      "result": "positive_response",
+      "response_time": "3.5 hours",
+      "validated_prediction": true
+    }
+  },
+  {
+    "id": "decision_002",
+    "investorId": "2",
+    "scenario": "follow_up_timing",
+    "timestamp": "2024-01-16T09:00:00Z", 
+    "decision": "send_follow_up",
+    "confidence": 67,
+    "reasoning": {
+      "factors": [
+        {
+          "factor": "time_since_outreach",
+          "value": "48_hours",
+          "weight": 0.3,
+          "score": 70,
+          "explanation": "Within optimal follow-up window for cold outreach"
+        },
+        {
+          "factor": "investor_pattern_analysis",
+          "value": "slow_responder",
+          "weight": 0.25,
+          "score": 60, 
+          "explanation": "Historical data shows this investor takes 3-5 days to respond"
+        },
+        {
+          "factor": "market_context",
+          "value": "active_fundraising",
+          "weight": 0.25,
+          "score": 80,
+          "explanation": "Multiple Series A deals announced this week, urgency justified"
+        },
+        {
+          "factor": "email_engagement",
+          "value": "opened_not_replied",
+          "weight": 0.2,
+          "score": 55,
+          "explanation": "Email opened 2x but no response indicates interest but not urgency"
+        }
+      ],
+      "escalation_trigger": {
+        "condition": "confidence_below_70",
+        "action": "request_human_review",
+        "triggered": true,
+        "human_decision": "approved_with_modifications"
+      }
+    },
+    "outcome": {
+      "executed": true,
+      "human_modified": true,
+      "result": "pending"
+    }
+  }
+]

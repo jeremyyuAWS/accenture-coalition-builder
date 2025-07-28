@@ -1,0 +1,251 @@
+[
+  {
+    "id": "workflow_001",
+    "name": "Coalition Builder - Master Workflow",
+    "status": "active",
+    "startTime": "2024-01-15T10:00:00Z",
+    "totalSteps": 12,
+    "completedSteps": 8,
+    "currentStep": "outreach_execution",
+    "estimatedCompletion": "2024-01-25T17:00:00Z",
+    "steps": [
+      {
+        "stepId": 1,
+        "name": "Investor Discovery & Scoring",
+        "type": "agent_action",
+        "status": "completed",
+        "startTime": "2024-01-15T10:00:00Z",
+        "endTime": "2024-01-15T10:45:00Z",
+        "duration": 45,
+        "confidence": 94,
+        "details": "Analyzed 247 investor profiles, calculated fit scores, identified top 15 matches",
+        "outputs": ["investor_rankings.json", "fit_score_analysis.pdf"],
+        "metrics": {
+          "profilesAnalyzed": 247,
+          "topMatches": 15,
+          "avgFitScore": 78.4
+        }
+      },
+      {
+        "stepId": 2,
+        "name": "Warm Connection Pathfinding",
+        "type": "agent_action",
+        "status": "completed",
+        "startTime": "2024-01-15T10:45:00Z",
+        "endTime": "2024-01-15T11:30:00Z",
+        "duration": 45,
+        "confidence": 87,
+        "details": "Mapped LinkedIn connections, identified 8 warm intro paths with 70%+ success probability",
+        "outputs": ["connection_map.json", "intro_pathways.pdf"],
+        "metrics": {
+          "warmPaths": 8,
+          "avgSuccessRate": 76.3,
+          "directConnections": 3
+        }
+      },
+      {
+        "stepId": 3,
+        "name": "Prioritize Top 5 Investors",
+        "type": "agent_action",
+        "status": "completed",
+        "startTime": "2024-01-15T11:30:00Z",
+        "endTime": "2024-01-15T12:00:00Z",
+        "duration": 30,
+        "confidence": 91,
+        "details": "Ranked investors by combined fit score, warm intro availability, and response probability",
+        "outputs": ["priority_ranking.json"],
+        "selectedInvestors": ["Sarah Chen", "Emily Watson", "Marcus Rodriguez", "Robert Kim", "Lisa Kumar"]
+      },
+      {
+        "stepId": 4,
+        "name": "Generate Introduction Drafts",
+        "type": "agent_action",
+        "status": "completed",
+        "startTime": "2024-01-15T12:00:00Z",
+        "endTime": "2024-01-15T13:15:00Z",
+        "duration": 75,
+        "confidence": 89,
+        "details": "Created personalized introduction emails for each investor, tailored to their portfolio and investment thesis",
+        "outputs": ["intro_sarah_chen.md", "intro_emily_watson.md", "intro_marcus_rodriguez.md"],
+        "metrics": {
+          "draftsCreated": 5,
+          "avgPersonalization": 87.2,
+          "expectedResponseRate": 68.4
+        }
+      },
+      {
+        "stepId": 5,
+        "name": "Human Review & Approval",
+        "type": "human_action",
+        "status": "completed",
+        "startTime": "2024-01-15T14:00:00Z",
+        "endTime": "2024-01-15T15:30:00Z",
+        "duration": 90,
+        "details": "Human reviewed all introduction drafts, approved 4 with minor edits, requested revision for 1",
+        "humanFeedback": "Excellent personalization. Strengthen the mutual connection context for Marcus.",
+        "approvalsReceived": 4,
+        "revisionsRequested": 1
+      },
+      {
+        "stepId": 6,
+        "name": "Execute Warm Introductions",
+        "type": "agent_action",
+        "status": "completed",
+        "startTime": "2024-01-15T16:00:00Z",
+        "endTime": "2024-01-15T16:15:00Z",
+        "duration": 15,
+        "confidence": 93,
+        "details": "Sent 3 warm introductions via identified connectors, initiated tracking for responses",
+        "outputs": ["outreach_tracking.json"],
+        "introsSent": 3,
+        "trackingActive": true
+      },
+      {
+        "stepId": 7,
+        "name": "Response Monitoring & Analysis",
+        "type": "agent_action",
+        "status": "completed",
+        "startTime": "2024-01-15T16:15:00Z",
+        "endTime": "2024-01-16T16:15:00Z",
+        "duration": 1440,
+        "confidence": 88,
+        "details": "Monitored email engagement, analyzed response patterns, received 2 positive responses within 24 hours",
+        "responsesReceived": 2,
+        "responseRate": 67,
+        "avgResponseTime": "8.5 hours"
+      },
+      {
+        "stepId": 8,
+        "name": "Meeting Coordination",
+        "type": "agent_action",
+        "status": "completed",
+        "startTime": "2024-01-16T16:15:00Z",
+        "endTime": "2024-01-16T18:30:00Z",
+        "duration": 135,
+        "confidence": 85,
+        "details": "Coordinated calendars, proposed meeting times, confirmed 2 investor meetings",
+        "meetingsScheduled": 2,
+        "calendarIntegration": true,
+        "meetingPrepStarted": true
+      },
+      {
+        "stepId": 9,
+        "name": "Meeting Preparation & Materials",
+        "type": "agent_action",
+        "status": "in_progress",
+        "startTime": "2024-01-17T09:00:00Z",
+        "details": "Preparing investor-specific materials, research briefs, and talking points for upcoming meetings",
+        "estimatedDuration": 120,
+        "materialsGenerated": 3,
+        "remainingTasks": ["technical_deep_dive_prep", "customer_reference_prep"]
+      },
+      {
+        "stepId": 10,
+        "name": "Execute Investor Meetings",
+        "type": "human_action",
+        "status": "pending",
+        "details": "Attend scheduled investor meetings with AI-prepared materials and talking points",
+        "scheduledMeetings": 2,
+        "upcomingDates": ["2024-01-18T14:00:00Z", "2024-01-22T10:00:00Z"]
+      },
+      {
+        "stepId": 11,
+        "name": "Post-Meeting Follow-up",
+        "type": "agent_action",
+        "status": "pending",
+        "details": "Analyze meeting outcomes, send follow-up materials, manage next steps",
+        "estimatedDuration": 60
+      },
+      {
+        "stepId": 12,
+        "name": "Coalition Completion & Handoff",
+        "type": "agent_action",
+        "status": "pending",
+        "details": "Complete coalition building process, generate final report, transition to due diligence phase",
+        "estimatedDuration": 30
+      }
+    ],
+    "metrics": {
+      "totalTimeSpent": "18.5 hours",
+      "agentTime": "16.2 hours",
+      "humanTime": "2.3 hours",
+      "efficiency": 91.4,
+      "currentConversionRate": 67,
+      "projectedSuccess": 89.3
+    }
+  },
+  {
+    "id": "workflow_002",
+    "name": "Due Diligence Preparation",
+    "status": "scheduled",
+    "startTime": "2024-01-20T09:00:00Z",
+    "totalSteps": 8,
+    "completedSteps": 0,
+    "steps": [
+      {
+        "stepId": 1,
+        "name": "Financial Model Preparation",
+        "type": "agent_action",
+        "status": "pending",
+        "details": "Prepare comprehensive financial models and projections for investor review",
+        "estimatedDuration": 180
+      },
+      {
+        "stepId": 2,
+        "name": "Customer Reference Coordination",
+        "type": "agent_action",
+        "status": "pending",
+        "details": "Contact key customers, coordinate reference calls, prepare case studies",
+        "estimatedDuration": 120
+      },
+      {
+        "stepId": 3,
+        "name": "Technical Documentation",
+        "type": "agent_action",
+        "status": "pending",
+        "details": "Compile technical architecture, security documentation, and scalability plans",
+        "estimatedDuration": 240
+      },
+      {
+        "stepId": 4,
+        "name": "Legal Document Preparation",
+        "type": "human_action",
+        "status": "pending",
+        "details": "Work with legal team to prepare corporate documents and cap table",
+        "estimatedDuration": 480
+      },
+      {
+        "stepId": 5,
+        "name": "Management Presentations",
+        "type": "agent_action",
+        "status": "pending",
+        "details": "Prepare detailed presentations for management team meetings",
+        "estimatedDuration": 150
+      },
+      {
+        "stepId": 6,
+        "name": "Data Room Setup",
+        "type": "agent_action",
+        "status": "pending",
+        "details": "Organize and upload all documents to secure data room",
+        "estimatedDuration": 90
+      },
+      {
+        "stepId": 7,
+        "name": "Background Checks & Compliance",
+        "type": "agent_action",
+        "status": "pending",
+        "details": "Coordinate background checks and ensure regulatory compliance",
+        "estimatedDuration": 60
+      },
+      {
+        "stepId": 8,
+        "name": "Final Review & Launch",
+        "type": "human_action",
+        "status": "pending",
+        "details": "Final review of all materials before starting due diligence process",
+        "estimatedDuration": 120
+      }
+    ]
+  }
+]
